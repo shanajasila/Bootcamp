@@ -22,6 +22,12 @@ public class Menudriven {
                 float m=a*b;
                 System.out.println(a+" * "+b+"="+m);
                 break;
+            case 4:
+                float d=a/b;
+                System.out.println(a+" / "+b+"="+d);
+                break;
+            default:
+                System.out.println("please select from given menu");
         }
 
     }
