@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Menudriven {
     public static void main(String args[]) {
-
+        while (true) {
             System.out.println("please Select your option");
-            System.out.println("menu:\n 1.Addition\n 2.Substraction\n 3.Multiplication\n4.Division");
+            System.out.println("menu:\n 1.Addition\n 2.Substraction\n 3.Multiplication\n4.Division\n 5.Exit");
             Scanner sc = new Scanner(System.in);
             int menu = sc.nextInt();
 
@@ -42,6 +42,7 @@ public class Menudriven {
                 default:
                     System.out.println("please select from given menu");
             }
+        }
 
         }
 }
