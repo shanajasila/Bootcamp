@@ -32,10 +32,15 @@ public class Menudriven {
                     break;
                 case 4:
                     System.out.println("enter two numbers");
-                    int a3 = sc.nextInt();
-                    int b3 = sc.nextInt();
-                    int d = a3 / b3;
-                    System.out.println(a3 + " / " + b3 + "=" + d);
+                    try {
+                        int a3 = sc.nextInt();
+                        int b3 = sc.nextInt();
+                        int d = a3 / b3;
+                        System.out.println(a3 + " / " + b3 + "=" + d);
+                    }
+                    catch (ArithmeticException e){
+                        System.out.println("Devision by zero Enter another number");
+                    }
                     break;
                 case 5:
                     System.exit(0);
