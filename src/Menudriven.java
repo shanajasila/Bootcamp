@@ -12,7 +12,11 @@ public class Menudriven {
         switch(menu){
             case 1:
                 double c=a+b;
-                System.out.println("a+b="+c);
+                System.out.println(a+"+"+b+"="+c);
+                break;
+            case 2:
+                double s=a-b;
+                System.out.println(a+"-"+b+"="+s);
                 break;
         }
 
